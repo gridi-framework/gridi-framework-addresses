@@ -1,0 +1,28 @@
+{
+    "name": "gridi-framework-addresses",
+    "description": "",
+    "main": "",
+    "authors": [
+        "Przemysław Dziadek <przemyslaw.dziadek@gmail.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "scss",
+        "gridi",
+        "framework",
+        "addresses"
+    ],
+    "homepage": "https://github.com/gridi-framework/gridi-framework-addresses",
+    "ignore": [
+        "**/.*",
+        "**/*.md",
+        "**/*.js",
+        "**/*.json",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "gridi-framework-core": "*"
+    }
+}
