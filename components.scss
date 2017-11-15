@@ -37,12 +37,12 @@ address {
             make-shorthand: $address-border-right-make-shorthand
         )
     ));
-    @include padding-shorthand-with-screens-support((
+    @include padding-shorthand((
         top: $address-padding-top, 
         bottom: $address-padding-bottom, 
         left: $address-padding-left, 
         right: $address-padding-right
-    ), $address-padding-for-screens);
+    ));
     font-style: $address-font-style;
     @include address-extra-style();
 }
