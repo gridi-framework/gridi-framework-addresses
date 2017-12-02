@@ -5,38 +5,14 @@ address {
         left: $address-margin-left,
         right:$address-margin-right
     ), $address-margin-for-screens);
-    @include border-shorthand((
+    @include border-shorthand(map-merge((
         border: (
             width: $address-border-width,
             style: $address-border-style,
             color: $address-border-color,
             make-shorthand: true
-        ),
-        border-top: (
-            width: $address-border-top-width,
-            style: $address-border-top-style,
-            color: $address-border-top-color,
-            make-shorthand: $address-border-top-make-shorthand
-        ),
-        border-bottom: (
-            width: $address-border-bottom-width,
-            style: $address-border-bottom-style,
-            color: $address-border-bottom-color,
-            make-shorthand: $address-border-bottom-make-shorthand
-        ),
-        border-left: (
-            width: $address-border-left-width,
-            style: $address-border-left-style,
-            color: $address-border-left-color,
-            make-shorthand: $address-border-left-make-shorthand
-        ),
-        border-right: (
-            width: $address-border-right-width,
-            style: $address-border-right-style,
-            color: $address-border-right-color,
-            make-shorthand: $address-border-right-make-shorthand
         )
-    ));
+    ), $address-borders));
     @include padding-shorthand((
         top: $address-padding-top, 
         bottom: $address-padding-bottom, 

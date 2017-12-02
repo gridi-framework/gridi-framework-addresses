@@ -9,26 +9,7 @@ $address-margin-for-screens: $elements-margin-for-screens !default;
 $address-border-width: 0 !default;
 $address-border-style: null !default;
 $address-border-color: null !default;
-
-$address-border-top-width: null !default;
-$address-border-top-style: null !default;
-$address-border-top-color: null !default;
-$address-border-top-make-shorthand: false !default;
-
-$address-border-bottom-width: null !default;
-$address-border-bottom-style: null !default;
-$address-border-bottom-color: null !default;
-$address-border-bottom-make-shorthand: false !default;
-
-$address-border-left-width: null !default;
-$address-border-left-style: null !default;
-$address-border-left-color: null !default;
-$address-border-left-make-shorthand: false !default;
-
-$address-border-right-width: null !default;
-$address-border-right-style: null !default;
-$address-border-right-color: null !default;
-$address-border-right-make-shorthand: false !default;
+$address-borders: () !default;
 
 //Paddings
 $address-padding-top: 0 !default;
