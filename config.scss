@@ -21,4 +21,4 @@ $address-padding-right: 0 !default;
 $address-font-style: normal !default;
 
 //Extra style
-@mixin address-extra-style() {}
+//@mixin address-extra-style() {} //Create this mixin before import module when you want add some special style for element

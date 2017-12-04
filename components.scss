@@ -20,5 +20,7 @@ address {
         right: $address-padding-right
     ));
     font-style: $address-font-style;
-    @include address-extra-style();
+    @if mixin-exists(address-extra-style) {
+        @include address-extra-style();
+    }
 }
